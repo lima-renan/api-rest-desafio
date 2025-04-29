@@ -1,0 +1,17 @@
+{
+  "name": "springboot-api-rest",
+  "dockerComposeFile": "../docker-compose-test.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "pivotal.vscode-spring-boot"
+      ]
+    }
+  },
+  "postCreateCommand": "mvn clean compile",
+  "forwardPorts": [8080, 27017],
+  "remoteUser": "root"
+}
