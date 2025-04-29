@@ -4,8 +4,8 @@ Esta API fornece funcionalidades para gerenciar clientes, incluindo operações 
 
 ## Tecnologias Utilizadas
 
-- **Java** (Spring Boot)
-- **MongoDB** (para armazenamento dos dados)
+- **Java 21** (Spring Boot)
+- **MongoDB 8.0** (para armazenamento dos dados)
 - **Swagger** (para documentação da API)
 - **Spring Data** (para integração com o banco de dados)
 - **Spring Web** (para criação da API RESTful)
