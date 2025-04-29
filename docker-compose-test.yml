@@ -22,7 +22,7 @@ services:
     depends_on:
       - mongo
     volumes:
-      - ./api:/workspace:cached
+      - ./api:/workspace
     working_dir: /workspace
     command: >
       sh -c "mvn clean install -DskipTests && mvn spring-boot:run"
